@@ -1,6 +1,12 @@
-body{ background-color: rgb(193, 241, 221);
-padding: 70px;
-border:20px;
+body,html{ background-color: rgba(25, 228, 194, 0.877);
+margin: 0px;
+//padding: 70px;
+//border:20px;
 }
+
+.main-nav{ background-color: rgb(255, 255, 255);
+column-count: 3;
+}
+
 
 
