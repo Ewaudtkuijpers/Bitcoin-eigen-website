@@ -1,4 +1,7 @@
-body,html{ background-color: rgba(25, 228, 194, 0.877);
+body,html{ background-color: blue;
+background-image: url(images/Background.jpg) ;
+background-repeat:no-repeat;
+background-size:cover;
 margin: 0px;
 //padding: 70px;
 //border:20px;
@@ -20,8 +23,21 @@ margin: 0px;
 	top: -10px;
 	transition: top 300ms ease;
 	align-items: center;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 150%;
 }
 
 .main-nav a:hover{
 color: rgb(0, 4, 255)
+}
 
+.page-content {
+	margin: 40px auto;
+  margin-left: 100px;
+  margin-right: 100px;
+	border: 2px solid black;
+  padding: 70px;
+	border-radius: 15px;
+	background-color: white;
+	overflow: hidden;
+}
