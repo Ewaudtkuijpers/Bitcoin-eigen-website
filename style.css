@@ -108,3 +108,16 @@ a.BTS:hover {
   display: block;
   width: 320px;
 }
+
+.table-content {
+	margin: 40px auto;
+  margin-left: 300px;
+  margin-right: 300px;
+	border: 2px solid black;
+  padding: 70px;
+	border-radius: 15px;
+	background-color: rgba(35,0,122,0.5));
+	overflow: hidden;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: white;
+}
