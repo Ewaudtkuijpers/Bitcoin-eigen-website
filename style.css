@@ -94,3 +94,17 @@ a.TBN {
 a.BTS:hover {
   color: rgb(73, 124, 199);
 }
+
+.Gamma{
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+  width: 320px;
+}
+
+.Beta{
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+  width: 320px;
+}
