@@ -1,5 +1,5 @@
 body,html{ background-color: blue;
-background-image: url(images/Background.jpg) ;
+background-image: url(images/Bckg.png) ;
 background-repeat:no-repeat;
 background-size:cover;
 margin: 0px;
@@ -33,14 +33,15 @@ color: rgb(0, 4, 255)
 
 .page-content {
 	margin: 40px auto;
-  margin-left: 100px;
-  margin-right: 100px;
+  margin-left: 300px;
+  margin-right: 300px;
 	border: 2px solid black;
   padding: 70px;
 	border-radius: 15px;
-	background-color: white;
+	background-color: rgba(109,1,138,0.5);
 	overflow: hidden;
   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: white;
 }
 
 .Beta th{
@@ -65,17 +66,31 @@ width: 20%;
 }
 
 nav {
-  background-image: url(images/nav.jpg) ;
+  background-color:whitesmoke;
   display:flex;
-  background-repeat: no-repeat;
-  background-size: 100%;
   }
 
-nav a {
+a.BTS {
+  color:black;
+  border-radius: 60px 60px 60px 60px;
+  text-align:center;
+  text-decoration:none;
+  flex-grow:1;
+  margin:30px;
+  padding: 25px 25px 25px 25px;
+  font-size: 150%;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+a.TBN {
   color:black;
   text-align:center;
   text-decoration:none;
   flex-grow:1;
-  margin:20px;
-  padding:10px 5px;
+  margin:10px;
+  padding:25px 12px;
+}
+
+a.BTS:hover {
+  color: rgb(73, 124, 199);
 }
