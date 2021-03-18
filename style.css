@@ -140,3 +140,7 @@ a.BTS:hover {
 		display: block;
 	}
 }
+
+label {
+ color: black;
+}
