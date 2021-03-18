@@ -1,141 +1,142 @@
-body,html{ background-color: blue;
-background-image: url(images/Bckg.png) ;
-background-repeat:no-repeat;
-background-size:cover;
-margin: 0px;
-//padding: 70px;
-//border:20px;
+body,
+html {
+	background-color: blue;
+	background-image: url(images/Bckg.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: 0px;
+	//padding: 70px;
+	//border:20px;
 }
 
 .page-content {
 	margin: 40px auto;
-  margin-left: 300px;
-  margin-right: 300px;
+	margin-left: 300px;
+	margin-right: 300px;
 	border: 2px solid black;
-  padding: 70px;
+	padding: 70px;
 	border-radius: 15px;
-	background-color: rgba(109,1,138,0.5);
+	background-color: rgba(109, 1, 138, 0.5);
 	overflow: hidden;
-  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  color: white;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	color: white;
 }
 
-.Beta th{
-border: 1px solid black;
-border-collapse: collapse;
-text-align: left;
-padding:10px;
-margin:10px auto;
-}
-.Beta td{
-border: 1px solid black;
-border-collapse: collapse;
-text-align: left;
-padding: 10px;
-width: 20%;
+.Beta th {
+	border: 1px solid black;
+	border-collapse: collapse;
+	text-align: left;
+	padding: 10px;
+	margin: 10px auto;
 }
 
+.Beta td {
+	border: 1px solid black;
+	border-collapse: collapse;
+	text-align: left;
+	padding: 10px;
+	width: 20%;
+}
 
 nav {
-  background-color:whitesmoke;
-  display:flex;
-  }
+	background-color: whitesmoke;
+	display: flex;
+}
 
 a.BTS {
-  color:black;
-  border-radius: 60px 60px 60px 60px;
-  text-align:center;
-  text-decoration:none;
-  flex-grow:1;
-  margin:30px;
-  padding: 25px 25px 25px 25px;
-  font-size: 150%;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	color: black;
+	border-radius: 60px 60px 60px 60px;
+	text-align: center;
+	text-decoration: none;
+	flex-grow: 1;
+	margin: 30px;
+	padding: 25px 25px 25px 25px;
+	font-size: 150%;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 a.TBN {
-  color:black;
-  text-align:center;
-  text-decoration:none;
-  flex-grow:1;
-  margin:10px;
-  padding:25px 12px;
+	color: black;
+	text-align: center;
+	text-decoration: none;
+	flex-grow: 1;
+	margin: 10px;
+	padding: 25px 12px;
 }
 
 a.BTS:hover {
-  color: rgb(73, 124, 199);
+	color: rgb(73, 124, 199);
 }
 
-.Gamma{
-  margin-right: auto;
-  margin-left: auto;
-  display: block;
-  width: 320px;
+.Gamma {
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+	width: 320px;
 }
 
-.Beta{
-  margin-right: auto;
-  margin-left: auto;
-  display: block;
-  width: 320px;
+.Beta {
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+	width: 320px;
 }
 
 .table-content {
 	margin: 40px auto;
-  margin-left: 300px;
-  margin-right: 300px;
+	margin-left: 300px;
+	margin-right: 300px;
 	border: 2px solid black;
-  padding: 70px;
+	padding: 70px;
 	border-radius: 15px;
-	background-color: rgba(35,0,122,0.5));
+	background-color: rgba(35, 0, 122, 0.5));
 	overflow: hidden;
-  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  color: white;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	color: white;
 }
 
-.Jeans{
-background-color: rgb(73, 124, 199);
-font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-font-size: 100%;
+.Jeans {
+	background-color: rgb(73, 124, 199);
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	font-size: 100%;
 }
 
-@media (max-width: 600px) {  
-  .page-content {
-    margin-left: 10px;
-    margin-right: 10px;
-  }
-  .table-content {
-    margin-left: 10px;
-    margin-right: 10px;
-  }
-  a.BTS {
-    display: block; 
-  }
-    a.TBN {
-    display: block; 
-  }
-  nav{
-    display: block;
-  }
+@media (max-width: 600px) {
+	.page-content {
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+	.table-content {
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+	a.BTS {
+		display: block;
+	}
+	a.TBN {
+		display: block;
+	}
+	nav {
+		display: block;
+	}
 }
 
-@media (max-width: 1100px) {  
-  .page-content {
-    margin-left: 25px;
-    margin-right: 25px;
-  }
-    a.BTS {
-    display: block; 
-  }
-      a.TBN {
-    display: block; 
-  }
-  .table-content {
-    margin-left: 25px;
-    margin-right: 25px;
-    
-  }
-  nav{
-    display: block;
-  }
+@media (max-width: 1100px) {
+	.page-content {
+		margin-left: 25px;
+		margin-right: 25px;
+	}
+	a.BTS {
+		display: block;
+	}
+	a.TBN {
+		display: block;
+	}
+	.table-content {
+		margin-left: 25px;
+		margin-right: 25px;
+	}
+	nav {
+		display: block;
+	}
 }
